@@ -1,0 +1,90 @@
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\bin\Debug\Customer_Order.mdf
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\bin\Debug\Customer_Order_log.ldf
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\bin\Debug\MyProject.exe.config
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\bin\Debug\MyProject.exe
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\bin\Debug\MyProject.pdb
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.Order_Details.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.LoginAdmin.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.exe
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.pdb
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.Customer_Bill.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.HomePage.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.ManageProduct.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.ViewCustomers.resources
+C:\Users\Bhavin\OneDrive\Desktop\MyProject\obj\Debug\MyProject.Sell.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\bin\Debug\Customer_Order.mdf
+C:\Users\Bhavin khatri\Desktop\MyProject\bin\Debug\Customer_Order_log.ldf
+C:\Users\Bhavin khatri\Desktop\MyProject\bin\Debug\MyProject.exe.config
+C:\Users\Bhavin khatri\Desktop\MyProject\bin\Debug\MyProject.exe
+C:\Users\Bhavin khatri\Desktop\MyProject\bin\Debug\MyProject.pdb
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.Customer_Bill.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.Order_Details.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.HomePage.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.LoginAdmin.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.ManageProduct.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.Sell.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.ViewCustomers.resources
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.exe
+C:\Users\Bhavin khatri\Desktop\MyProject\obj\Debug\MyProject.pdb
+D:\College notes\MyProject\bin\Debug\Customer_Order.mdf
+D:\College notes\MyProject\bin\Debug\Customer_Order_log.ldf
+D:\College notes\MyProject\bin\Debug\MyProject.exe.config
+D:\College notes\MyProject\bin\Debug\MyProject.exe
+D:\College notes\MyProject\bin\Debug\MyProject.pdb
+D:\College notes\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+D:\College notes\MyProject\obj\Debug\MyProject.Customer_Bill.resources
+D:\College notes\MyProject\obj\Debug\MyProject.Order_Details.resources
+D:\College notes\MyProject\obj\Debug\MyProject.HomePage.resources
+D:\College notes\MyProject\obj\Debug\MyProject.LoginAdmin.resources
+D:\College notes\MyProject\obj\Debug\MyProject.ManageProduct.resources
+D:\College notes\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+D:\College notes\MyProject\obj\Debug\MyProject.Sell.resources
+D:\College notes\MyProject\obj\Debug\MyProject.ViewCustomers.resources
+D:\College notes\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+D:\College notes\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+D:\College notes\MyProject\obj\Debug\MyProject.exe
+D:\College notes\MyProject\obj\Debug\MyProject.pdb
+D:\COLLEGE\MyProject\bin\Debug\Customer_Order.mdf
+D:\COLLEGE\MyProject\bin\Debug\Customer_Order_log.ldf
+D:\COLLEGE\MyProject\bin\Debug\MyProject.exe.config
+D:\COLLEGE\MyProject\bin\Debug\MyProject.exe
+D:\COLLEGE\MyProject\bin\Debug\MyProject.pdb
+D:\COLLEGE\MyProject\obj\Debug\MyProject.csprojAssemblyReference.cache
+D:\COLLEGE\MyProject\obj\Debug\MyProject.Customer_Bill.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.Order_Details.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.HomePage.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.LoginAdmin.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.ManageProduct.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.Sell.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.ViewCustomers.resources
+D:\COLLEGE\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+D:\COLLEGE\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+D:\COLLEGE\MyProject\obj\Debug\MyProject.exe
+D:\COLLEGE\MyProject\obj\Debug\MyProject.pdb
+D:\BK\COLLEGE\BSC-IT\MyProject\bin\Debug\Customer_Order.mdf
+D:\BK\COLLEGE\BSC-IT\MyProject\bin\Debug\Customer_Order_log.ldf
+D:\BK\COLLEGE\BSC-IT\MyProject\bin\Debug\MyProject.exe.config
+D:\BK\COLLEGE\BSC-IT\MyProject\bin\Debug\MyProject.exe
+D:\BK\COLLEGE\BSC-IT\MyProject\bin\Debug\MyProject.pdb
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.csproj.AssemblyReference.cache
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.Customer_Bill.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.Order_Details.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.HomePage.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.LoginAdmin.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.ManageProduct.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.Properties.Resources.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.Sell.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.ViewCustomers.resources
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.csproj.GenerateResource.cache
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.csproj.CoreCompileInputs.cache
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.exe
+D:\BK\COLLEGE\BSC-IT\MyProject\obj\Debug\MyProject.pdb

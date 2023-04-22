@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B139B826-EB14-42B0-A1FC-55C892B57FA6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>MyProject</RootNamespace>
+    <AssemblyName>MyProject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer_Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Bill.Designer.cs">
+      <DependentUpon>Customer_Bill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet111.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet111.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet17.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet17.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet18.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet18.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_OrderDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Customer_OrderDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage.Designer.cs">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginAdmin.Designer.cs">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManageProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManageProduct.Designer.cs">
+      <DependentUpon>ManageProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sell.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sell.Designer.cs">
+      <DependentUpon>Sell.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewCustomers.Designer.cs">
+      <DependentUpon>ViewCustomers.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customer_Bill.resx">
+      <DependentUpon>Customer_Bill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage.resx">
+      <DependentUpon>HomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginAdmin.resx">
+      <DependentUpon>LoginAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManageProduct.resx">
+      <DependentUpon>ManageProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Sell.resx">
+      <DependentUpon>Sell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewCustomers.resx">
+      <DependentUpon>ViewCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Customer_OrderDataSet1.xsc">
+      <DependentUpon>Customer_OrderDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet1.xss">
+      <DependentUpon>Customer_OrderDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet10.xsc">
+      <DependentUpon>Customer_OrderDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet10.xss">
+      <DependentUpon>Customer_OrderDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet11.xsc">
+      <DependentUpon>Customer_OrderDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet11.xss">
+      <DependentUpon>Customer_OrderDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet111.xsc">
+      <DependentUpon>Customer_OrderDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet111.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet111.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet111.xss">
+      <DependentUpon>Customer_OrderDataSet111.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet12.xsc">
+      <DependentUpon>Customer_OrderDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet12.xss">
+      <DependentUpon>Customer_OrderDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet13.xsc">
+      <DependentUpon>Customer_OrderDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet13.xss">
+      <DependentUpon>Customer_OrderDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet14.xsc">
+      <DependentUpon>Customer_OrderDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet14.xss">
+      <DependentUpon>Customer_OrderDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet15.xsc">
+      <DependentUpon>Customer_OrderDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet15.xss">
+      <DependentUpon>Customer_OrderDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet16.xsc">
+      <DependentUpon>Customer_OrderDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet16.xss">
+      <DependentUpon>Customer_OrderDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet17.xsc">
+      <DependentUpon>Customer_OrderDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet17.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet17.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet17.xss">
+      <DependentUpon>Customer_OrderDataSet17.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet18.xsc">
+      <DependentUpon>Customer_OrderDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet18.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet18.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet18.xss">
+      <DependentUpon>Customer_OrderDataSet18.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet2.xsc">
+      <DependentUpon>Customer_OrderDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet2.xss">
+      <DependentUpon>Customer_OrderDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet3.xsc">
+      <DependentUpon>Customer_OrderDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet3.xss">
+      <DependentUpon>Customer_OrderDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet4.xsc">
+      <DependentUpon>Customer_OrderDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet4.xss">
+      <DependentUpon>Customer_OrderDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet5.xsc">
+      <DependentUpon>Customer_OrderDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet5.xss">
+      <DependentUpon>Customer_OrderDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet6.xsc">
+      <DependentUpon>Customer_OrderDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet6.xss">
+      <DependentUpon>Customer_OrderDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet7.xsc">
+      <DependentUpon>Customer_OrderDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet7.xss">
+      <DependentUpon>Customer_OrderDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet8.xsc">
+      <DependentUpon>Customer_OrderDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet8.xss">
+      <DependentUpon>Customer_OrderDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet9.xsc">
+      <DependentUpon>Customer_OrderDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Customer_OrderDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Customer_OrderDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Customer_OrderDataSet9.xss">
+      <DependentUpon>Customer_OrderDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hide2.png" />
+    <None Include="showpassword.png" />
+    <None Include="loginbutton.jpg" />
+    <None Include="login.png" />
+    <None Include="toggle-off.jpg" />
+    <None Include="toggle_on.jpg" />
+    <None Include="Search.png" />
+    <None Include="logout1.png" />
+    <None Include="tracking.png" />
+    <None Include="print1.png" />
+    <None Include="print.jpg" />
+    <None Include="back-icon.png" />
+    <None Include="AddOrder.png" />
+    <None Include="AddProduct.png" />
+    <None Include="choices.png" />
+    <None Include="bill.png" />
+    <None Include="customer.jpg" />
+    <None Include="admin1.png" />
+    <Content Include="Customer_Order.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Customer_Order_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>Customer_Order.mdf</DependentUpon>
+    </Content>
+    <None Include="hidepassword.png" />
+    <None Include="exit.png" />
+    <None Include="logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
